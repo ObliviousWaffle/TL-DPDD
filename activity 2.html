@@ -42,19 +42,14 @@
                 console.log("count is " + count)
                 count = count-1
             }
+            let total = 0
             let num = 1
             while (num != 0){
-                num = parseInt(prompt("enter number 1: "));
+                num = parseInt(prompt("enter number: "));
                 if (num != 0){
-                     num1 = num
-                     num = parseInt(prompt("enter number 2: "));
-                     
-                     if (num != 0){
-                        num2 = num
-                        console.log(num1 + num2)
-                     }
+                    total += num
+                    console.log(total)
                 }
-
             }
         </script>
     </body>
