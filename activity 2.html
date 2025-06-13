@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            activity 1
+        </title>
+    </head>
+    <body>
+        <script>
+            let name = "Waffle"
+            let age = "4"
+            let favoriteColour = "green"
+
+            let userName = prompt("enter your name: ");
+            let hobby = prompt("enter your favorite hobby: ");
+
+            console.log("hello " + userName);
+            console.log("your favorite hobby is " + hobby);
+
+            let num1 = parseInt(prompt("enter number 1: "));
+            let num2 = parseInt(prompt("enter number 2: "));
+
+            let add = num1 + num2
+            console.log("sum" + add)
+            let subtract = num1 - num2
+            console.log("subtract" + subtract)
+            let multiply = num1 * num2
+            console.log("multiply" + multiply)
+            let divide = num1 / num2
+            console.log("divide" + divide)
+
+            if (add > 100){
+                console.log("Big number!")
+            }
+            else {
+                console.log("small number :(")
+            }
+
+            let count = 10;
+
+            while (count > 0){
+                console.log("count is " + count)
+                count = count-1
+            }
+            let num = 1
+            while (num != 0){
+                num = parseInt(prompt("enter number 1: "));
+                if (num != 0){
+                     num1 = num
+                     num = parseInt(prompt("enter number 2: "));
+                     
+                     if (num != 0){
+                        num2 = num
+                        console.log(num1 + num2)
+                     }
+                }
+
+            }
+        </script>
+    </body>
+</html>
